@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and responsivness in HTML</title>
+</head>
+<body>
+    <img src="https://w0.peakpx.com/wallpaper/611/838/HD-wallpaper-spiderman-listening-music-spiderman-superheroes.jpg" alt="spiderman"
+    srcset="/assets/small,jpg 480w,
+    /assets/medium.jpg 800w,
+    /assets/large.jpg 1200w"
+
+    sizes="(max-width: 480px) 240 px,
+            (max-width: 960 px) 480px,
+            (max-width: 1440px) 960 px"
+    >
+    
+     
+    
+    
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="https://w0.peakpx.com/wallpaper/575/261/HD-wallpaper-spider-man-listening-to-music-spiderman-superheroes-artwork-artist-digital-art-behance.jpg">
+        <source media="(max-width: 900px)" srcset="https://w0.peakpx.com/wallpaper/92/843/HD-wallpaper-spiderman-amazing-art-man-marvel-mortal-spider.jpg">
+        <img src="https://w0.peakpx.com/wallpaper/458/516/HD-wallpaper-black-spider-man-suit-spiderman-superheroes-artwork-artist.jpg" alt="">
+    </picture>
+</body>
+</html>

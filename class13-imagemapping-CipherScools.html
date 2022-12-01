@@ -1,0 +1,48 @@
+
+
+
+<!-- image mapping-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and responsivness in HTML</title>
+</head>
+<body>
+    <img src="https://w0.peakpx.com/wallpaper/611/838/HD-wallpaper-spiderman-listening-music-spiderman-superheroes.jpg" alt="spiderman"
+    srcset="/assets/small,jpg 480w,
+    /assets/medium.jpg 800w,
+    /assets/large.jpg 1200w"
+
+    sizes="(max-width: 480px) 240 px,
+            (max-width: 960 px) 480px,
+            (max-width: 1440px) 960 px"
+    >
+    
+     
+    
+    
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="https://w0.peakpx.com/wallpaper/575/261/HD-wallpaper-spider-man-listening-to-music-spiderman-superheroes-artwork-artist-digital-art-behance.jpg">
+        <source media="(max-width: 900px)" srcset="https://w0.peakpx.com/wallpaper/92/843/HD-wallpaper-spiderman-amazing-art-man-marvel-mortal-spider.jpg">
+        <img src="https://w0.peakpx.com/wallpaper/458/516/HD-wallpaper-black-spider-man-suit-spiderman-superheroes-artwork-artist.jpg" alt="">
+    </picture>
+
+
+<!-- image mapping --->
+
+    <img src="https://w0.peakpx.com/wallpaper/51/380/HD-wallpaper-spiderman-logo-spider.jpg" alt="spiderman" usemap="#workspace">
+    <map name="workspace">
+        <area shape="rect" coords ="34,44,270,350" alt="computer" href="computer.html">
+        <area shape="rect" coords ="290,172,333,250" alt="phone" href="phone.htmtl">
+        <area shape="circle" coords ="337,300,44" alt="cup" href="cup.html">
+
+    </map>
+
+</body>
+</html>
+
